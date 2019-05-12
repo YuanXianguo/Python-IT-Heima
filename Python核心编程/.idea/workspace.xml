@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f23d0e86-2fe4-43d2-a200-e2ce9cfd63c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/01_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/02_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/03_单链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/04_双向链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/05_单向循环链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/06_栈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/07_队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/1、顺序表/08_双端队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/01_bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/02_select_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/03_insert_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/04_shell_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/05_quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/06_merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/2、排序算法/07_binary_search二分查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/3、树/01_breadth_travel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/3、树/02_depth_travel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/3、树/03_非递归遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/3、树/04_二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python数据结构与算法/3、树/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0、Python三大神器/动态规划/二项式——迭代.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0、Python三大神器/动态规划/二项式——递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0、Python三大神器/动态规划/初识defaultdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0、Python三大神器/动态规划/动态规划——迭代.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0、Python三大神器/动态规划/动态规划——递归（备忘录）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Python-itheima.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python-itheima.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马生成器/feibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马装饰器/多装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马装饰器/类装饰器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马装饰器/装饰器完全版.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马迭代器/iter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马迭代器/iter01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0、Python三大神器/黑马迭代器/迭代器应用——斐波那契.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/dictionaries/.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/.idea/名片系统开发.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/card_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1、Python基础-名片系统开发/card_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_00_私有方法和属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_01_类方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_02_静态方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_03_综合案例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_04___new___方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_05_单例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_06_捕获未知错误.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_07_抛出异常.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_08_property.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_08_property2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_09_动态添加方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/jam_10_元类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/.idea/飞机大战.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/again.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/bomb_supply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/bullet1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/bullet2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/bullet_supply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy1_down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy1_down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy1_down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy1_down4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2_down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2_down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2_down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2_down4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy2_hit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_down6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_hit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_n1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/enemy3_n2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/gameover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me_destroy_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me_destroy_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me_destroy_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/me_destroy_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/pause_nor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/pause_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/resume_nor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/images/resume_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/plane_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2、黑马面向过程/飞机大战/plane_sprites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马TCP/tcp_01_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马TCP/tcp_02_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马TCP/tcp_03_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马TCP/tcp_04_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/UDP聊天室/udp_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/UDP聊天室/udp_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/UDP聊天室/udp_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/udp_01_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/udp_02_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3、黑马网络/黑马UPD/udp_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_1多进程复制文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_2_进程间通信.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_3_多线程服务器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_4_单进程非阻塞服务器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_5_select并发服务器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_6_epoll并发.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/jam_7_gevent并发.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/黑马协程/gevent协程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/黑马协程/greenlet协程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4、黑马多任务/黑马协程/yield.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="二项式——迭代 Coverage Results" MODIFIED="1554952296462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0、Python三大神器/动态规划" />
+    <SUITE FILE_PATH="coverage/Python$feibo.coverage" NAME="feibo Coverage Results" MODIFIED="1554786579141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0、Python三大神器/黑马生成器" />
+    <SUITE FILE_PATH="coverage/Python$defaultdict.coverage" NAME="初识defaultdict Coverage Results" MODIFIED="1554950427380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0、Python三大神器/动态规划" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1671082520">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="py" value="681" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="681" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/0、Python三大神器/动态规划——备忘录.py" />
+        <option value="$PROJECT_DIR$/0、Python三大神器/黑马生成器/feibo.py" />
+        <option value="$PROJECT_DIR$/0、Python三大神器/动态规划——迭代.py" />
+        <option value="$PROJECT_DIR$/0、Python三大神器/黑马迭代器/迭代器应用——斐波那契.py" />
+        <option value="$PROJECT_DIR$/0、Python三大神器/动态规划——递归（备忘录）.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="609" />
+    <option name="y" value="80" />
+    <option name="width" value="1447" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python核心编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python核心编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.二项式——迭代">
+    <configuration name="二项式——迭代" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器/动态规划" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0、Python三大神器/动态规划/二项式——迭代.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划——迭代" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\Python-itheima\Python核心编程\0、Python三大神器\动态规划\动态规划——迭代.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划——递归（备忘录）" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\Python-itheima\Python核心编程\0、Python三大神器\动态规划\动态规划——递归（备忘录）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划求二项式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器/动态规划" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\Python-itheima\Python核心编程\0、Python三大神器\动态规划\二项式——递归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划——迭代" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0、Python三大神器/动态规划——迭代.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划——递归（备忘录）" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0、Python三大神器/动态规划——递归（备忘录）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="迭代器应用——斐波那契" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器/黑马迭代器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0、Python三大神器/黑马迭代器/迭代器应用——斐波那契.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="初识defaultdict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python核心编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0、Python三大神器/动态规划" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0、Python三大神器/动态规划/初识defaultdict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.初识defaultdict" />
+      <item itemvalue="Python.二项式——迭代" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.二项式——迭代" />
+        <item itemvalue="Python.初识defaultdict" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f23d0e86-2fe4-43d2-a200-e2ce9cfd63c9" name="Default Changelist" comment="" />
+      <created>1554776155065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554776155065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="609" y="80" width="1447" height="975" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494759" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23276836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/黑马迭代器/iter01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/黑马生成器/feibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/黑马迭代器/iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/黑马迭代器/迭代器应用——斐波那契.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/动态规划——递归（备忘录）.py" />
+    <entry file="file://$PROJECT_DIR$/0、Python三大神器/动态规划——迭代.py" />
+  </component>
+</project>

@@ -3,7 +3,7 @@ class FeiBo(object):
     def __init__(self, num):
         self.num = num
         self.count = -1  # 计数
-        self.a = 0
+        self.a = 1
         self.b = 1
 
     def __iter__(self):
@@ -11,7 +11,7 @@ class FeiBo(object):
 
     def __next__(self):
         self.count += 1
-        if self.count:  # 第一次直接返回self.a
+        if self.count:  # 第二次开始计算，第一次直接返回self.a
             self.a, self.b = self.b, self.a + self.b
         if self.count < self.num:
             return self.a

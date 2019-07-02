@@ -1,0 +1,31 @@
+<!DOCTYPE  HTML>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系好安全带,准备启航</title>
+
+<script type="text/javascript">
+
+  //通过javascript的日期对象来得到当前的日期，并输出。
+  var date = new Date();
+  var myyear = date.getFullYear();
+  var mymoth = date.getMonth();
+  var mydate = date.getDate();
+  var mydayindex = date.getDay();
+  var dayarr = ["日","一","二","三","四","五","六"]
+  var myday = dayarr[mydayindex];
+  //成绩是一长窜的字符串不好处理，找规律后分割放到数组里更好操作哦
+  var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小西:90;小伍:76;小迪:64;小曼:76";
+  var scorearr = scoreStr.split(";");
+  var sum=0;
+  for(var i=0;i<scorearr.length;i++){
+      sum += parseInt(scorearr[i].substring(3));
+  }
+  var ave = Math.round((sum / scorearr.length));
+  //从数组中将成绩撮出来，然后求和取整，并输出。
+  document.write(myyear+"年"+mymoth+"月"+mydate+"日"+" 星期"+myday+"--班级总分为："+ave);
+</script>
+</head>
+<body>
+</body>
+</html>

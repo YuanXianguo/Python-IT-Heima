@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>实践题 - 选项卡</title>
+    <style type="text/css">
+     /* 
+     标签和文本结合区域效果制作：
+     1.用ul做分类标签
+     2.把ul的display定义为block使ul区域和下面div区域结合在一起
+     3.给ul定义一个下边框或者给div内容区域定义一个上边框
+     4.所有li标签默认样式不设下边框，作为激活显示的li标签加宽其#fff（白色）
+     区域的下边框，覆盖。
+     */  
+*{
+    margin:0px; padding:0px; font:12px normal; font-family:微软雅黑;
+    }       
+ #tabs{
+     width:290px; height:150px; padding:5px; margin:20px;
+ }
+ #tabs ul{
+     list-style:none; display:block; height:30px; line-height:30px;
+ }
+ #tabs ul li{
+     float:left; width:60px; height:28px; line-height:28px; text-align:center;
+     display:inline-block;margin:0px 3px; border:1px solid #aaa;border-bottom:none;
+     cursor:pointer; background:#fff; list-style:none;
+ }
+ #tabs ul li.on{
+     border-top:2px solid saddlebrown; border-bottom:2px solid #fff;
+ }
+ #tabs div{
+     height:120px; line-height:25px; border:1px solid #336699;border-top:2px saddlebrown solid;padding:5px;
+ }
+ .hide{display:none;}
+    </style>
+    <script type="text/javascript">     
+
+    window.onload=function(){
+        var oTab = document.getElementById("tabs")
+        var li = document.getElementsByTagName("li");
+        var div = oTab.getElementsByTagName("div");//oTabs.get...是为了定义className作用对象为id为tabs下的所有文本div
+        
+        for(var i=0;i<li.length;i++){//获取所有i编号的元素
+            li[i].index = i;  //定义一个index属性对li进行编号
+            li[i].onclick = function(){//再注册一个点击事件，当点击的时候所有标签都恢复最初状态
+            for(var n=0;n<li.length;n++){//这步是相对于未被点击部分的样式
+                li[n].className = "";
+                div[n].className = "hide";
+            }
+            this.className = "on";//再对点击事件添加相应的属性
+            div[this.index].className = "";//通过之前的index编号绑定的指定div
+            }
+        }
+    }
+    
+    </script>
+ 
+</head>
+<body>
+<!-- HTML页面布局 -->
+<div id="tabs">
+    <ul>
+        <li class="on">房产</li>
+        <li>家居</li>
+        <li>二手房</li>
+    </ul>
+    <div>
+    275万购昌平邻铁三居 总价20万买一居<br>
+    200万内购五环三居 140万安家东三环<br>
+    北京首现零首付楼盘 53万购东5环50平<br>
+    京楼盘直降5000 中信府 公园楼王现房<br>
+    </div>
+    <div class="hide">
+     40平出租屋大改造 美少女的混搭小窝<br>
+     经典清新简欧爱家 90平老房焕发新生<br>
+     新中式的酷色温情 66平撞色活泼家居<br>
+     瓷砖就像选好老婆 卫生间烟道的设计<br>
+    </div>
+    <div class="hide">
+     通州豪华3居260万 二环稀缺2居250w甩<br>
+     西3环通透2居290万 130万2居限量抢购<br>
+     黄城根小学学区仅260万 121平70万抛!<br>
+     独家别墅280万 苏州桥2居优惠价248万<br>
+    </div>
+</div>
+
+ 
+</body>
+</html>

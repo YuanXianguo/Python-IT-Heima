@@ -2,176 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c54e61-61b7-46dd-8e83-8e3004c9f78d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/生成器/读取大文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/4、正则/1匹配邮箱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/4、正则/2匹配一对标签.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/01static_web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/02static_web_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/03static_web_server_多进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04长链接非阻塞.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04面向对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/01HTMLDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/02HTMLCSSDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/03HTMLCSSDemo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/04HTMLCSSDemo3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/05HTMLJSDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex7_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/ex7_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/html/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/拷贝.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试宝典/1python高级/2动态设置对象属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试宝典/1python高级/默认列表参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-itheima.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-itheima.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/05动态.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/mini_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/.pytest_cache/v/cache/nodeids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构/初识Counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构/初识defaultdict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构/队列实现Deque.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/01_abc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/02_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/03_单链表.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/04_双向链表.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/05_单向循环链表.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/06_栈.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/07_队列.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/1、顺序表/08_双端队列.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/01_bubble_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/02_insert_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/03_shell_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/04_select_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/05_quick_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/06_merge_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/07_binary_search二分查找.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/01_breadth_travel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/02_depth_travel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/03_非递归遍历.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/04_二叉搜索树.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/05_哈夫曼树.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python数据结构与算法/3、树/堆.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/Python核心编程.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划/二项式——迭代.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划/二项式——递归.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划/动态规划——迭代.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划/动态规划——递归（备忘录）.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马生成器/feibo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马装饰器/多装饰器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马装饰器/类装饰器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马装饰器/装饰器完全版.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马迭代器/iter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马迭代器/iter01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马迭代器/迭代器应用——斐波那契.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/dictionaries/.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/.idea/名片系统开发.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/card_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/1、Python基础-名片系统开发/card_tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_00_私有方法和属性.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_01_类方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_02_静态方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_03_综合案例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_04___new___方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_05_单例.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_06_捕获未知错误.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_07_抛出异常.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_08_property.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_08_property2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_09_动态添加方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_10_元类.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/jam_11_面试题.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/.idea/飞机大战.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/again.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/bomb_supply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/bullet1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/bullet2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/bullet_supply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy1_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy1_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy1_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy1_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy2_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_down6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_n1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/enemy3_n2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/gameover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me_destroy_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me_destroy_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me_destroy_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/me_destroy_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/pause_nor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/pause_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/resume_nor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/images/resume_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/plane_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/2、面向过程/飞机大战/plane_sprites.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马TCP/tcp_01_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马TCP/tcp_02_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马TCP/tcp_03_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马TCP/tcp_04_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室/udp_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室/udp_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室/udp_tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/udp_01_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/udp_02_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/udp_tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_1多进程复制文件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_2_进程间通信.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_3_多线程服务器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_4_单进程非阻塞服务器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_5_select并发服务器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_6_epoll并发.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/jam_7_gevent并发.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/test/yield - 副本 (10).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/gevent协程.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/greenlet协程.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/01_static_web_sever.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/02_static_web_sever_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/03_static_web_sever_面向对象.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/04_dynamic_web_sever.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/MyWebFramwork.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/MyWebServer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/wsgipython/local_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python核心编程/5、Web开发/wsgipython/sayhello.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,6 +37,7 @@
     <SUITE FILE_PATH="coverage/Python_itheima$04_.coverage" NAME="04_二叉搜索树 Coverage Results" MODIFIED="1555292001803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
     <SUITE FILE_PATH="coverage/Python_itheima$02_list.coverage" NAME="02_list Coverage Results" MODIFIED="1555122027518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/1、顺序表" />
     <SUITE FILE_PATH="coverage/Python_itheima$yield_demo.coverage" NAME="yield_demo Coverage Results" MODIFIED="1561681265564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$05.coverage" NAME="05动态 Coverage Results" MODIFIED="1562068762116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
     <SUITE FILE_PATH="coverage/Python_itheima$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1561600481326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
     <SUITE FILE_PATH="coverage/Python_itheima$1.coverage" NAME="1匹配邮箱 Coverage Results" MODIFIED="1561690854888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/4、正则" />
     <SUITE FILE_PATH="coverage/Python_itheima$04_dynamic_web_sever.coverage" NAME="04_dynamic_web_sever Coverage Results" MODIFIED="1553838010819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
@@ -251,14 +85,14 @@
         <counts>
           <entry key="file" value="1" />
           <entry key="html" value="6" />
-          <entry key="py" value="126" />
+          <entry key="py" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="126" />
+          <entry key="Python" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -267,33 +101,20 @@
           <entry key="dummy" value="68" />
           <entry key="file" value="70" />
           <entry key="html" value="31" />
-          <entry key="py" value="22257" />
+          <entry key="py" value="22586" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="31" />
           <entry key="PLAIN_TEXT" value="138" />
-          <entry key="Python" value="23037" />
+          <entry key="Python" value="23366" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/01static_web_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <marker date="1561776433252" expanded="true" signature="41:302" ph="..." />
-                <marker date="1561776433252" expanded="true" signature="313:318" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/拷贝.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -358,13 +179,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04面向对象.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="828">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/05动态.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/mini_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <marker date="1562068652946" expanded="true" signature="171:174" ph="..." />
+                <marker date="1562068652946" expanded="true" signature="196:201" ph="..." />
+                <marker date="1562068652946" expanded="true" signature="196:349" ph="..." />
               </folding>
             </state>
           </provider>
@@ -397,8 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/02_select_sort.py" />
-        <option value="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/a03_insert_sort.py" />
         <option value="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/04_shell_sort.py" />
         <option value="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/05_.py" />
         <option value="$PROJECT_DIR$/Python数据结构与算法/2、排序算法/07_binary_search二分查找.py" />
@@ -448,6 +293,8 @@
         <option value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04长链接非阻塞.py" />
         <option value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/03static_web_server_多进程.py" />
         <option value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04面向对象.py" />
+        <option value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/05动态.py" />
+        <option value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/mini_frame.py" />
       </list>
     </option>
   </component>
@@ -457,11 +304,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="59" />
-    <option name="y" value="3" />
-    <option name="width" value="1794" />
-    <option name="height" value="1045" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="413" />
+    <option name="y" value="38" />
+    <option name="width" value="1447" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -554,7 +401,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04面向对象">
+  <component name="RunManager" selected="Python.05动态">
     <configuration name="拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-itheima" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -569,28 +416,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/拷贝.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01static_web_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-itheima" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/01static_web_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -665,20 +490,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="05动态" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-itheima" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/05动态.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.01static_web_server" />
       <item itemvalue="Python.02static_web_server" />
       <item itemvalue="Python.拷贝" />
       <item itemvalue="Python.03static_web_server_多进程" />
       <item itemvalue="Python.04面向对象" />
+      <item itemvalue="Python.05动态" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05动态" />
         <item itemvalue="Python.04面向对象" />
         <item itemvalue="Python.03static_web_server_多进程" />
         <item itemvalue="Python.拷贝" />
         <item itemvalue="Python.02static_web_server" />
-        <item itemvalue="Python.01static_web_server" />
       </list>
     </recent_temporary>
   </component>
@@ -701,15 +548,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="1065" y="140" width="1447" height="943" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13020833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.174703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1888668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33763188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3807157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,8 +603,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python数据结构与算法/2、排序算法/02_insert_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Python数据结构与算法/2、排序算法/04_select_sort.py" />
     <entry file="file://$PROJECT_DIR$/Python数据结构与算法/2、排序算法/05_quick_sort.py" />
     <entry file="file://$PROJECT_DIR$/Python数据结构与算法/2、排序算法/06_merge_sort.py" />
     <entry file="file://$PROJECT_DIR$/Python数据结构与算法/2、排序算法/07_binary_search二分查找.py" />
@@ -996,10 +840,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/04面向对象.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="828">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/05动态.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/mini_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1562068652946" expanded="true" signature="171:174" ph="..." />
+            <marker date="1562068652946" expanded="true" signature="196:201" ph="..." />
+            <marker date="1562068652946" expanded="true" signature="196:349" ph="..." />
           </folding>
         </state>
       </provider>

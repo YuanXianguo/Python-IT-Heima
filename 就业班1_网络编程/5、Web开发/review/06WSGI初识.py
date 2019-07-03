@@ -1,7 +1,7 @@
 import socket
 import re
 import multiprocessing
-from mini_frame0 import application
+import mini_frame
 
 
 class WSGIServer(object):
@@ -9,6 +9,14 @@ class WSGIServer(object):
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.tcp_server_socket.bind(("", 1080))
         self.tcp_server_socket.listen(128)
+        self.headers = "HTTP/1.1 "
+
+    def get_response(self, status, headers):
+        self.headers += status + "\r\n"
+        for header in headers:
+            self.headers += "{}:{}\r\n".format(header[0], header[1])
+
+        self.headers += "\r\n"
 
     def service_client(self, server):
         recv_data = server.recv(1024).decode("utf-8")
@@ -37,10 +45,11 @@ class WSGIServer(object):
                 response_header += "Content-Length:%d\r\n" % len(response_body)
                 response_header += "\r\n"
         else:
-            response_header = "HTTP/1.1 200 OK\r\n"
-            response_header += "\r\n"
 
-            response_body = application(file)
+            env = dict()
+            env["file"] = file
+            response_body = mini_frame.application(env, self.get_response)
+            response_header = self.headers
 
         response = response_header + response_body
 

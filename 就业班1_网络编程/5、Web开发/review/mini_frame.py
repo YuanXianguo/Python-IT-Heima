@@ -5,17 +5,18 @@ t_str = time.strftime("%Y-%m-%d %H:%M:%S", t)
 
 
 def login():
-    return "login " + t_str
+    return "这是首页" + t_str
 
 
 def register():
-    return "register " + t_str
+    return "这是注册页面" + t_str
 
 
-def application(file):
+def application(env, get_response):
+    get_response("200 OK", [("Content-Type", "text/html;charset=utf-8")])
+    file = env["file"]
     if file == "/login.py":
         return login()
     elif file == "/register.py":
         return register()
-    else:
-        return "file not found"
+    return "hello world 你好中国"

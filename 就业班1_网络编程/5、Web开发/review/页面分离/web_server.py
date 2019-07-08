@@ -29,7 +29,7 @@ class WSGIServer(object):
             file = ret.group(1)
             if file == "/":
                 file = "/index.html"
-        if not file.endswith(".py"):
+        if not file.endswith(".html"):
             try:
                 with open(self.config["static_path"] + file, "r", encoding="utf-8") as f:
                     html_content = f.read()
@@ -101,5 +101,30 @@ def main():
         return
 
 
+def main1(port, app_info):
+    # 解析路径
+    with open("./web_server.conf", "r") as f:
+        conf_info = eval(f.read())
+
+    # 解析模块和函数
+    ret = re.match(r"([^:]+):(.*)", app_info)
+    if ret:
+        frame_name = ret.group(1)
+        app_name = ret.group(2)
+
+        # 动态导入模块
+        sys.path.append(conf_info["dynamic_path"])
+        frame = __import__(frame_name)
+        app = getattr(frame, app_name)
+
+        wsgi_server = WSGIServer(port, app, conf_info)
+        wsgi_server.run_forever()
+    else:
+        print("请按照以下方式运行：")
+        print("python web_server.py 1080 mini_frame:application")
+        return
+
+
 if __name__ == '__main__':
-    main()
+    # main()
+    main1(1080, "mini_frame:application")

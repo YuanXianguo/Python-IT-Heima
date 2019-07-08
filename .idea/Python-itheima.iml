@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Python数据结构与算法/2、排序算法" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/template" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Python核心编程/5、Web开发/wsgipython" />
     </content>
     <orderEntry type="inheritedJdk" />

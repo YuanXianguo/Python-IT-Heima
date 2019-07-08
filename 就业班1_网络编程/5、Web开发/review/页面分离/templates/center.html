@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>个人中心-个人选股系统</title>
     <link rel="stylesheet" href="/css/center.css">
 </head>
 <body>
-<h1>这是个人中心</h1>
+<div id="nav">
+    <span><a href="#">选股系统</a></span>
+    <span><a href="/index.html">股票信息</a></span>
+    <span><a href="/center.html">个人中心</a></span>
+</div>
+<div id="main">
+    <table>
+        <tr>
+            <th>股票代码</th>
+            <th>股票简称</th>
+            <th>涨跌幅</th>
+            <th>换手率</th>
+            <th>最新价(元)</th>
+            <th>前期高点</th>
+            <th>备注信息</th>
+            <th>修改备注</th>
+            <th>删除</th>
+        </tr>
+        {%content%}
+    </table>
+</div>
 </body>
 </html>

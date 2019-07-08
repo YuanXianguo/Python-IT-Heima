@@ -14,6 +14,6 @@
 #main{
     padding-left: 100px;
 }
-table{
-    border-spacing: 20px 10px;
+#main span{
+    margin: 10px;
 }

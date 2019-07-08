@@ -1,5 +1,19 @@
-h1{
-    color: red;
-    margin:auto 0;
-    border: solid 1px #336699;
+#nav{
+    background-color: #111;
+    height: 30px;
+    padding-left: 100px;
+}
+#nav span{
+    margin: 10px;
+}
+#nav a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 30px;
+}
+#main{
+    padding-left: 100px;
+}
+table{
+    border-spacing: 20px 10px;
 }

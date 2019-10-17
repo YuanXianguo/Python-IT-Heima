@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c54e61-61b7-46dd-8e83-8e3004c9f78d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/new_use.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/old_use.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/anheng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/zxsk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python-itheima.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-itheima.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试宝典/1python高级/2动态设置对象属性.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试宝典/1python高级/默认列表参数.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,68 +15,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_itheima$greenlet.coverage" NAME="greenlet协程 Coverage Results" MODIFIED="1561681019987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
-    <SUITE FILE_PATH="coverage/Python_IT_Heima$old_use.coverage" NAME="old_use Coverage Results" MODIFIED="1570623220581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
-    <SUITE FILE_PATH="coverage/Python_itheima$02static_web_server.coverage" NAME="02static_web_server Coverage Results" MODIFIED="1561806296337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_itheima$gevent_.coverage" NAME="gevent_打补丁 Coverage Results" MODIFIED="1561683256329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$pytest_in_02_list_py.coverage" NAME="pytest in 02_list.py Coverage Results" MODIFIED="1553848659874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$defaultdict.coverage" NAME="初识defaultdict Coverage Results" MODIFIED="1554967899624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划" />
-    <SUITE FILE_PATH="coverage/Python_itheima$04_select_sort.coverage" NAME="04_select_sort Coverage Results" MODIFIED="1561519388123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$demo.coverage" NAME="元类demo Coverage Results" MODIFIED="1562549831772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$.coverage" NAME="元类 Coverage Results" MODIFIED="1562550511597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$tree.coverage" NAME="tree Coverage Results" MODIFIED="1555305690443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
-    <SUITE FILE_PATH="coverage/Python_itheima$03static_web_server_.coverage" NAME="03static_web_server_多进程 Coverage Results" MODIFIED="1562064557817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_itheima$t.coverage" NAME="t Coverage Results" MODIFIED="1561719340794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面试宝典/1python基础" />
-    <SUITE FILE_PATH="coverage/Python_itheima$02_depth_travel.coverage" NAME="02_depth_travel Coverage Results" MODIFIED="1555305455442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$06_merge_sort.coverage" NAME="06_merge_sort Coverage Results" MODIFIED="1555318313995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$feibo.coverage" NAME="feibo Coverage Results" MODIFIED="1561623380651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马生成器" />
     <SUITE FILE_PATH="coverage/Python_itheima$gevent.coverage" NAME="gevent协程 Coverage Results" MODIFIED="1561681115977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$04_dynamic_web_sever.coverage" NAME="04_dynamic_web_sever Coverage Results" MODIFIED="1553838010819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$log2.coverage" NAME="log2 Coverage Results" MODIFIED="1562297291611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+    <SUITE FILE_PATH="coverage/Python_itheima$t.coverage" NAME="t Coverage Results" MODIFIED="1561719340794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面试宝典/1python基础" />
+    <SUITE FILE_PATH="coverage/Python_itheima$yield_demo.coverage" NAME="yield_demo Coverage Results" MODIFIED="1561681265564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1561600481326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
+    <SUITE FILE_PATH="coverage/Python_itheima$greenlet.coverage" NAME="greenlet协程 Coverage Results" MODIFIED="1561681019987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$04_select_sort.coverage" NAME="04_select_sort Coverage Results" MODIFIED="1561519388123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$06_.coverage" NAME="06_栈 Coverage Results" MODIFIED="1553944662022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$02_depth_travel.coverage" NAME="02_depth_travel Coverage Results" MODIFIED="1555305455442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$jam_1.coverage" NAME="jam_1多进程复制文件 Coverage Results" MODIFIED="1561614321059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$defaultdict.coverage" NAME="初识defaultdict Coverage Results" MODIFIED="1554967899624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/0、Python三大神器/动态规划" />
+    <SUITE FILE_PATH="coverage/Python_itheima$web_server.coverage" NAME="web_server Coverage Results" MODIFIED="1562311993707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离" />
+    <SUITE FILE_PATH="coverage/Python_itheima$defaultdict__1_.coverage" NAME="初识defaultdict (1) Coverage Results" MODIFIED="1554968675984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构" />
+    <SUITE FILE_PATH="coverage/Python_itheima$MyWebFramwork.coverage" NAME="MyWebFramwork Coverage Results" MODIFIED="1553842403002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$03_static_web_sever_.coverage" NAME="03_static_web_sever_面向对象 Coverage Results" MODIFIED="1553825695060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$01_static_sever.coverage" NAME="01_static_sever Coverage Results" MODIFIED="1553740124503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$07_.coverage" NAME="07_队列 Coverage Results" MODIFIED="1553945894166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$02static_web_server.coverage" NAME="02static_web_server Coverage Results" MODIFIED="1561806296337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+    <SUITE FILE_PATH="coverage/Python_IT_Heima$zxsk.coverage" NAME="zxsk Coverage Results" MODIFIED="1570803298503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
+    <SUITE FILE_PATH="coverage/Python_itheima$Counter.coverage" NAME="初识Counter Coverage Results" MODIFIED="1554968631396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构" />
     <SUITE FILE_PATH="coverage/Python_itheima$udp_tools.coverage" NAME="udp_tools Coverage Results" MODIFIED="1561600340574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
+    <SUITE FILE_PATH="coverage/Python_itheima$03_.coverage" NAME="03_非递归遍历 Coverage Results" MODIFIED="1555031750952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$my_sql.coverage" NAME="my_sql Coverage Results" MODIFIED="1562230282638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" />
+    <SUITE FILE_PATH="coverage/Python_itheima$yield.coverage" NAME="yield Coverage Results" MODIFIED="1561680921227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
     <SUITE FILE_PATH="coverage/Python_itheima$01static_web_server.coverage" NAME="01static_web_server Coverage Results" MODIFIED="1561805148564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
     <SUITE FILE_PATH="coverage/Python_itheima$2.coverage" NAME="2动态设置对象属性 Coverage Results" MODIFIED="1561775148652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面试宝典/1python高级" />
+    <SUITE FILE_PATH="coverage/Python_itheima$re_01.coverage" NAME="re_01多进程复制文件 Coverage Results" MODIFIED="1561623223602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$03static_web_server_.coverage" NAME="03static_web_server_多进程 Coverage Results" MODIFIED="1562064557817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
     <SUITE FILE_PATH="coverage/Python_itheima$04_shell_sort.coverage" NAME="04_shell_sort Coverage Results" MODIFIED="1554000238673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$07_.coverage" NAME="07_队列 Coverage Results" MODIFIED="1553945894166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$jam_2_.coverage" NAME="jam_2_进程间通信 Coverage Results" MODIFIED="1561605168021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$jam_1.coverage" NAME="jam_1多进程复制文件 Coverage Results" MODIFIED="1561614321059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$jam_11_.coverage" NAME="jam_11_面试题 Coverage Results" MODIFIED="1553757187597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2、黑马面向过程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$06WSGI.coverage" NAME="06WSGI初识 Coverage Results" MODIFIED="1562115600977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_itheima$my_sql.coverage" NAME="my_sql Coverage Results" MODIFIED="1562230282638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" />
-    <SUITE FILE_PATH="coverage/Python_itheima$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1562297157439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_itheima$MyWebFramwork.coverage" NAME="MyWebFramwork Coverage Results" MODIFIED="1553842403002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$mini_frame.coverage" NAME="mini_frame Coverage Results" MODIFIED="1562222730667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" />
+    <SUITE FILE_PATH="coverage/Python_itheima$MyWebServer.coverage" NAME="MyWebServer Coverage Results" MODIFIED="1553843285796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
     <SUITE FILE_PATH="coverage/Python_itheima$04_.coverage" NAME="04_二叉搜索树 Coverage Results" MODIFIED="1555292001803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
-    <SUITE FILE_PATH="coverage/Python_itheima$02_list.coverage" NAME="02_list Coverage Results" MODIFIED="1555122027518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/1、顺序表" />
-    <SUITE FILE_PATH="coverage/Python_itheima$yield_demo.coverage" NAME="yield_demo Coverage Results" MODIFIED="1561681265564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$05.coverage" NAME="05动态 Coverage Results" MODIFIED="1562068762116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_itheima$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1561600481326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
+    <SUITE FILE_PATH="coverage/Python_itheima$06WSGI.coverage" NAME="06WSGI初识 Coverage Results" MODIFIED="1562115600977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+    <SUITE FILE_PATH="coverage/Python_itheima$01_breadth_travel.coverage" NAME="01_breadth_travel Coverage Results" MODIFIED="1555305593747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1562297157439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
     <SUITE FILE_PATH="coverage/Python_itheima$1.coverage" NAME="1匹配邮箱 Coverage Results" MODIFIED="1561690854888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/4、正则" />
-    <SUITE FILE_PATH="coverage/Python_itheima$04_dynamic_web_sever.coverage" NAME="04_dynamic_web_sever Coverage Results" MODIFIED="1553838010819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1561600460499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
-    <SUITE FILE_PATH="coverage/Python_itheima$01_static_sever.coverage" NAME="01_static_sever Coverage Results" MODIFIED="1553740124503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$defaultdict__1_.coverage" NAME="初识defaultdict (1) Coverage Results" MODIFIED="1554968675984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构" />
-    <SUITE FILE_PATH="coverage/Python_itheima$01_bubble_sort.coverage" NAME="01_bubble_sort Coverage Results" MODIFIED="1555311045999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$02_select_sort.coverage" NAME="02_select_sort Coverage Results" MODIFIED="1553957475255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$06_merge_sort.coverage" NAME="06_merge_sort Coverage Results" MODIFIED="1555318313995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$05_.coverage" NAME="05_哈夫曼树 Coverage Results" MODIFIED="1555055936226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
-    <SUITE FILE_PATH="coverage/Python_itheima$Counter.coverage" NAME="初识Counter Coverage Results" MODIFIED="1554968631396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构" />
-    <SUITE FILE_PATH="coverage/Python_itheima$03_static_web_sever_.coverage" NAME="03_static_web_sever_面向对象 Coverage Results" MODIFIED="1553825695060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$03_insert_sort.coverage" NAME="03_insert_sort Coverage Results" MODIFIED="1555314527364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$log2.coverage" NAME="log2 Coverage Results" MODIFIED="1562297291611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_IT_Heima$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1570622226934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
     <SUITE FILE_PATH="coverage/Python_itheima$02_static_web_sever_file.coverage" NAME="02_static_web_sever_file Coverage Results" MODIFIED="1553824614542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$07_binary_search.coverage" NAME="07_binary_search二分查找 Coverage Results" MODIFIED="1554048950696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$.coverage" NAME="元类 Coverage Results" MODIFIED="1562550511597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$tree.coverage" NAME="tree Coverage Results" MODIFIED="1555305690443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$03_insert_sort.coverage" NAME="03_insert_sort Coverage Results" MODIFIED="1555314527364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
     <SUITE FILE_PATH="coverage/Python_itheima$Deque.coverage" NAME="队列实现Deque Coverage Results" MODIFIED="1554969015996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/0、Python高级数据结构" />
     <SUITE FILE_PATH="coverage/Python_itheima$04.coverage" NAME="04面向对象 Coverage Results" MODIFIED="1562064811572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
-    <SUITE FILE_PATH="coverage/Python_IT_Heima$new_use.coverage" NAME="new_use Coverage Results" MODIFIED="1570623138025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
-    <SUITE FILE_PATH="coverage/Python_itheima$03_shell_sort.coverage" NAME="03_shell_sort Coverage Results" MODIFIED="1555316050810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$07_binary_search.coverage" NAME="07_binary_search二分查找 Coverage Results" MODIFIED="1554048950696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$01_breadth_travel.coverage" NAME="01_breadth_travel Coverage Results" MODIFIED="1555305593747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
-    <SUITE FILE_PATH="coverage/Python_itheima$web_server.coverage" NAME="web_server Coverage Results" MODIFIED="1562311993707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离" />
+    <SUITE FILE_PATH="coverage/Python_IT_Heima$anheng.coverage" NAME="anheng Coverage Results" MODIFIED="1570866036648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
+    <SUITE FILE_PATH="coverage/Python_itheima$05.coverage" NAME="05动态 Coverage Results" MODIFIED="1562068762116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+    <SUITE FILE_PATH="coverage/Python_itheima$02_select_sort.coverage" NAME="02_select_sort Coverage Results" MODIFIED="1553957475255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$01_bubble_sort.coverage" NAME="01_bubble_sort Coverage Results" MODIFIED="1555311045999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
     <SUITE FILE_PATH="coverage/Python_itheima$01_static_web_sever.coverage" NAME="01_static_web_sever Coverage Results" MODIFIED="1553819992313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$06_.coverage" NAME="06_栈 Coverage Results" MODIFIED="1553944662022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
-    <SUITE FILE_PATH="coverage/Python_itheima$feibo.coverage" NAME="feibo Coverage Results" MODIFIED="1561623380651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/0、Python三大神器/黑马生成器" />
-    <SUITE FILE_PATH="coverage/Python_itheima$yield.coverage" NAME="yield Coverage Results" MODIFIED="1561680921227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
-    <SUITE FILE_PATH="coverage/Python_itheima$MyWebServer.coverage" NAME="MyWebServer Coverage Results" MODIFIED="1553843285796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5、黑马Web开发" />
-    <SUITE FILE_PATH="coverage/Python_itheima$03_.coverage" NAME="03_非递归遍历 Coverage Results" MODIFIED="1555031750952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
-    <SUITE FILE_PATH="coverage/Python_itheima$re_01.coverage" NAME="re_01多进程复制文件 Coverage Results" MODIFIED="1561623223602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
     <SUITE FILE_PATH="coverage/Python_itheima$log3.coverage" NAME="log3 Coverage Results" MODIFIED="1562311222081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review" />
+    <SUITE FILE_PATH="coverage/Python_itheima$jam_11_.coverage" NAME="jam_11_面试题 Coverage Results" MODIFIED="1553757187597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2、黑马面向过程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1561600460499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/3、网络编程/黑马UPD/UDP聊天室" />
+    <SUITE FILE_PATH="coverage/Python_itheima$demo.coverage" NAME="元类demo Coverage Results" MODIFIED="1562549831772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
+    <SUITE FILE_PATH="coverage/Python_itheima$02_list.coverage" NAME="02_list Coverage Results" MODIFIED="1555122027518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/1、顺序表" />
+    <SUITE FILE_PATH="coverage/Python_itheima$mini_frame.coverage" NAME="mini_frame Coverage Results" MODIFIED="1562222730667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" />
+    <SUITE FILE_PATH="coverage/Python_IT_Heima$old_use.coverage" NAME="old_use Coverage Results" MODIFIED="1570623220581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
+    <SUITE FILE_PATH="coverage/Python_itheima$gevent_.coverage" NAME="gevent_打补丁 Coverage Results" MODIFIED="1561683256329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程" />
+    <SUITE FILE_PATH="coverage/Python_IT_Heima$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1570622226934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
+    <SUITE FILE_PATH="coverage/Python_itheima$pytest_in_02_list_py.coverage" NAME="pytest in 02_list.py Coverage Results" MODIFIED="1553848659874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法" />
+    <SUITE FILE_PATH="coverage/Python_itheima$jam_2_.coverage" NAME="jam_2_进程间通信 Coverage Results" MODIFIED="1561605168021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python核心编程/4、多任务编程" />
+    <SUITE FILE_PATH="coverage/Python_itheima$05_.coverage" NAME="05_哈夫曼树 Coverage Results" MODIFIED="1555055936226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/3、树" />
+    <SUITE FILE_PATH="coverage/Python_itheima$03_shell_sort.coverage" NAME="03_shell_sort Coverage Results" MODIFIED="1555316050810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python数据结构与算法/2、排序算法" />
+    <SUITE FILE_PATH="coverage/Python_IT_Heima$new_use.coverage" NAME="new_use Coverage Results" MODIFIED="1570623138025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1499961760">
@@ -166,19 +168,80 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2001724143">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="616" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="616" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/new_use.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/anheng.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <marker date="1570623349921" expanded="true" signature="139:144" ph="..." />
-                <marker date="1570623349921" expanded="true" signature="303:308" ph="..." />
-                <marker date="1570623349921" expanded="true" signature="366:371" ph="..." />
+                <marker date="1570866166443" expanded="true" signature="57:87" ph="..." />
+                <marker date="1570866166443" expanded="true" signature="176:181" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/zxsk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1570803491416" expanded="true" signature="10:15" ph="..." />
+                <marker date="1570803491416" expanded="true" signature="69:74" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/old_use.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -210,8 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/greenlet协程.py" />
-        <option value="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/gevent协程.py" />
         <option value="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/yield_demo.py" />
         <option value="$PROJECT_DIR$/Python核心编程/4、多任务编程/黑马协程/gevent_打补丁.py" />
         <option value="$PROJECT_DIR$/就业班1_网络编程/4、正则/1匹配邮箱.py" />
@@ -261,6 +322,8 @@
         <option value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/demo1.py" />
         <option value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/old_use.py" />
         <option value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/new_use.py" />
+        <option value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/zxsk.py" />
+        <option value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/anheng.py" />
       </list>
     </option>
   </component>
@@ -271,16 +334,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="925" />
-    <option name="y" value="67" />
-    <option name="width" value="1447" />
-    <option name="height" value="1037" />
+    <option name="x" value="444" />
+    <option name="y" value="68" />
+    <option name="width" value="1508" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,7 +387,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +396,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -363,8 +426,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.old_use">
-    <configuration name="元类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.anheng">
+    <configuration name="anheng" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-itheima" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,34 +435,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\GitHub\Python-itheima\就业班1_网络编程\5、Web开发\元类ORM.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="元类demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-itheima" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/5、Web开发/元类demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/anheng.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,20 +515,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zxsk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-itheima" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/zxsk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.元类" />
-      <item itemvalue="Python.元类demo" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.new_use" />
       <item itemvalue="Python.old_use" />
+      <item itemvalue="Python.zxsk" />
+      <item itemvalue="Python.anheng" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.anheng" />
+        <item itemvalue="Python.zxsk" />
         <item itemvalue="Python.old_use" />
         <item itemvalue="Python.new_use" />
         <item itemvalue="Python.helloworld" />
-        <item itemvalue="Python.元类" />
-        <item itemvalue="Python.元类demo" />
       </list>
     </recent_temporary>
   </component>
@@ -513,12 +576,12 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13020833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31013918" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23757455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3807157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,14 +629,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/re_01多进程复制文件.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/02_static_web_sever_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/03_static_web_sever_面向对象.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952" />
@@ -747,16 +802,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试宝典/1python高级/默认列表参数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试宝典/1python高级/2动态设置对象属性.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/面试宝典/1python高级/默认列表参数.py" />
+    <entry file="file://$PROJECT_DIR$/面试宝典/1python高级/2动态设置对象属性.py" />
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/stock.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -776,33 +823,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/greenlet协程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/gevent协程.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/jam_7_gevent并发.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/5、Web开发/review/03static_web_server_多进程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,27 +863,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/old_use.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/new_use.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/zxsk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1570623349921" expanded="true" signature="139:144" ph="..." />
-            <marker date="1570623349921" expanded="true" signature="303:308" ph="..." />
-            <marker date="1570623349921" expanded="true" signature="366:371" ph="..." />
+            <marker date="1570803491416" expanded="true" signature="10:15" ph="..." />
+            <marker date="1570803491416" expanded="true" signature="69:74" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/old_use.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/就业班1_网络编程/3、多任务编程/协程/asyncio_demo/anheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1570866166443" expanded="true" signature="57:87" ph="..." />
+            <marker date="1570866166443" expanded="true" signature="176:181" ph="..." />
           </folding>
         </state>
       </provider>

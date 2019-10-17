@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/就业班1_网络编程/5、Web开发/review/页面分离/dynamic" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Python核心编程/5、Web开发/wsgipython" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

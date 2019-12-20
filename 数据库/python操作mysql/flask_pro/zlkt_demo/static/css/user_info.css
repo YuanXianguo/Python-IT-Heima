@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.question-container{
+    margin: 0 auto;
+    padding:0 15px;
+}
+.question-info{
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding:10px 0;
+}
+.question-logo img{
+    width: 30px;
+}
+.question-main{
+    width: 660px;
+    margin-left: 10px;
+}
+.question-user-time{
+    text-align: right;
+}
+.question-user{
+    margin-right: 10px;
+}
+.comment-container{
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.comment-info{
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding:10px 0;
+}
+.comment-logo img{
+    width: 30px;
+}
+.comment-main{
+    width: 660px;
+    margin-left: 10px;
+}

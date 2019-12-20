@@ -1,0 +1,17 @@
+#container{
+    background: #ddd;
+    width: 500px;
+    height: 250px;
+}
+
+path{
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2;
+}
+
+/*给坐标轴添加样式*/
+.domain, .tick line{
+    stroke: grey;
+    stroke-width: 1;
+}

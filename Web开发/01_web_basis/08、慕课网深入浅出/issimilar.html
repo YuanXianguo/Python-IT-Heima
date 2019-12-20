@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <title>Untitled Document</title>
+    
+</head>
+<body>
+    <script type="text/javascript">   
+        function gettype(arr){
+            var res = [0,0,0,0,0,0,0,0];
+            if(arr instanceof Array){
+            	for(var i=0;i<arr.length;i++){
+            		if (typeof(arr[i]) == "string"){
+            			res[0] = 1;
+            		}else if(typeof(arr[i]) == "number"){
+            			res[1] = 1;
+            		}else if(typeof(arr[i]) == "boolean"){
+            			res[2] = 1;
+            		}else if(typeof(arr[i]) == "undefined"){
+            			res[3] = 1;
+            		}else if(typeof(arr[i]) == "function"){
+            			res[4] = 1;
+            		}else if(arr[i] === null){
+            			res[5] = 1;
+            		}else if(arr[i] instanceof Date){
+            			res[6] = 1;
+            		}else if(arr[i] instanceof Window) {
+            			res[7] = 1;            		
+            		}
+            	}
+			// alert(res.toString());
+                return res;
+            }else{
+                return "";
+            }
+        }
+        // gettype([1,true,new Date(),"hahaha",(function(){}),undefined,null,window]);
+        /*
+         * param1 Array 
+         * param2 Array
+         * return true or false
+         */
+        function arraysSimilar(arr1, arr2){
+        	if(gettype(arr1) && gettype(arr1).toString() == gettype(arr2).toString()){
+        		return true;
+        	}else{
+        		return false;
+        	}
+        }
+    </script>
+    <script src="testData.js"></script>
+</body>
+</html>

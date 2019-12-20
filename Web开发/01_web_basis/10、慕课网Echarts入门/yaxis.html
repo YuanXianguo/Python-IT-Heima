@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多个y轴</title>
+    <!--引入echarts.js-->
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<!--为echarts准备一个具备大小的dom-->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    //基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById("main"));
+
+    // 指定图表的配置项和数据
+    var option = {
+        toolbox:{
+            show:true,
+            feature:{
+                dataView:{show:true,readOnly: false,},
+                magicType: {show:true, type:["line","bar"]},
+                restore:{show:true},
+                saveAsImage: {show:true},
+            }
+        },
+        tooltip:{
+            trigger:"axis",
+        },
+        legend:{
+            data:["蒸发量","降水量","平均温度"],
+        },
+        xAxis:{
+            type:"category",
+            data:function () {
+                var data = [];
+                for(var i=1;i<13;i++){
+                    data.push(i+"月");
+                }
+                return data;
+            }(),
+        },
+        yAxis:[
+            {
+                type:"value",
+                name:"水量",
+                min:0,
+                max:50,
+                interval:10,
+                axisLabel:{
+                    formatter:"{value}ml"
+                }
+            },
+            {
+                type:"value",
+                name:"温度",
+                min:0,
+                max:15,
+                interval:3,
+                axisLabel:{
+                    formatter:"{value}°C"
+                }
+            }
+        ],
+        series:[
+            {
+                name:"蒸发量",
+                type:"bar",
+                data:[5,20,36,10,10,20,33,22,12,15,16,14],
+            },
+            {
+                name:"降水量",
+                type:"bar",
+                data:[5,22,34,11,9,18,10,10,20,33,22,12],
+            },
+            {
+                name:"平均温度",
+                type:"line",
+                yAxisIndex:1,  //切换对应坐标轴
+                data:[5,13,8,5,7,11,8,11,9,14,10,10]
+            }
+        ]
+    };
+
+    //使用指定的配置项和数据显示图案
+    myChart.setOption(option);
+</script>
+</body>
+</html>

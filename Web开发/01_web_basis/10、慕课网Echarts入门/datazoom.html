@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>datazoom</title>
+    <!--引入echarts.js-->
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<!--为echarts准备一个具备大小的dom-->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    //基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById("main"));
+
+    var base = +new Date(1968,9,3),
+        oneDay = 24 * 3600 * 1000,
+        date = [],
+        data = [Math.random() * 300];
+
+    for(var i=1;i<20000;i++){
+        var now = new Date(base += oneDay);
+        date.push([now.getFullYear(), now.getMonth()+1, now.getDate()].join("-"));
+        data.push(Math.round((Math.random()-0.5) * 20 + data[i-1]));
+    }
+    // 指定图表的配置项和数据
+    var option = {
+        title:{
+            left:"center",
+            text:"大数据折线图",
+        },
+        toolbox:{
+            show:true,
+            feature:{
+                dataView:{show:true,readOnly: false,},
+                magicType: {show:true, type:["line","bar","stack","tiled"]},
+                restore:{show:true},
+                saveAsImage: {show:true},
+            }
+        },
+        tooltip:{
+            trigger:"axis",
+            position:function (pt) {
+                return [pt[0], "10%"];
+            }
+        },
+        legend:{
+            top:"bottom",
+            data:["意向"],
+        },
+        xAxis:{
+            type:"category",
+            boundaryGap:false,
+            data:date,
+        },
+        yAxis: {
+            type:"value",
+            boundaryGap:[0, "100%"],
+        },
+        dataZoom:[{
+            type:"slider",
+            start:0,
+            end:10,
+        }],
+        series:[
+            {
+                name:"模拟数据",
+                type:"line",
+                smooth:true,
+                symbol:"none",
+                sampling:"average",
+                itemStyle:{
+                    normal:{
+                        color:"rgb(255,70,131)"
+                    }
+                },
+                areaStyle:{
+                    normal:{
+                        color:new echarts.graphic.LinearGradient(0,0,0,1,[{
+                            offset:0,
+                            color:"rgb(255,158,68)"
+                        },{
+                            offset:1,
+                            color:"rgb(255,70,131)"
+                        }])
+                    }
+                },
+                data:data,
+            },
+        ]
+    };
+
+    //使用指定的配置项和数据显示图案
+    myChart.setOption(option);
+</script>
+</body>
+</html>

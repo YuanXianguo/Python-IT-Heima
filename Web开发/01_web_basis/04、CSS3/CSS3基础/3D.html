@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#stage{
+			width: 300px;
+			margin:100px auto;
+			perspective: 100px;
+		}
+		.box{
+			width:100px;
+			height: 100px;
+			float:left;
+			transition: linear 1s;
+			transform-style:preserve-d;
+		}
+		img{
+			width: 100px;
+			height: 75px;
+		}
+		.x:hover{
+			transform: rotateX(60deg);
+		}
+		.y:hover{
+			transform: rotateY(60deg);
+		}
+		.z:hover{
+			transform: rotateZ(60deg);
+		}
+	</style>
+</head>
+<body>
+	<div id="stage">
+		<div class="box x"><img src="frog.jpg" alt=""></div>
+		<div class="box y"><img src="frog.jpg" alt=""></div>
+		<div class="box z"><img src="frog.jpg" alt=""></div>
+	</div>
+</body>
+</html>

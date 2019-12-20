@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79924905-b787-4ee7-bf88-97284f44993a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/order_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.6.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/.idea/dailyfresh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/cart/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/celery_tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/celery_tasks/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/goods/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/migrations/0002_auto_20190722_1614.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/order/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/apps/user/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/dailyfresh/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/dailyfresh/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/dailyfresh/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/dailyfresh/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/db/base_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/adv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/adv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/banner06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/fruit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods/goods021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/goods_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/icons02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/interval_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/left_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/login_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/logo02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/pay_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/register_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/shop_cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/slide02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/slide03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/images/slide04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/js/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/js/slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/media/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/media/banner/adv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/media/banner/adv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/static/media/type/banner03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/base_detail_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/base_no_car.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/base_user_center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/place_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/static_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/static_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/user_center_info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/user_center_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/user_center_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/templates/页面说明.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dailyfresh/utils/mixin.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dailyfresh$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1563954330580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/celery_tasks" />
+    <SUITE FILE_PATH="coverage/dailyfresh$t.coverage" NAME="t Coverage Results" MODIFIED="1563954470909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/celery_tasks" />
+    <SUITE FILE_PATH="coverage/dailyfresh$models.coverage" NAME="models Coverage Results" MODIFIED="1563777849297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/goods" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="479671189">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="83" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="1" />
+          <entry key="pem" value="4" />
+          <entry key="py" value="102" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="83" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="7027" />
+          <entry key="pem" value="27" />
+          <entry key="py" value="13013" />
+          <entry key="txt" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="7027" />
+          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="Python" value="13013" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1890111209">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="319" />
+          <entry key="py" value="597" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="319" />
+          <entry key="Python" value="597" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1425529956">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="ini" value="1" />
+          <entry key="pem" value="2" />
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="221" />
+          <entry key="py" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="221" />
+          <entry key="Python" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/order/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-364">
+              <caret line="456" lean-forward="true" selection-start-line="456" selection-end-line="456" />
+              <folding>
+                <element signature="e#569#1917#0" />
+                <element signature="e#618#1917#0" />
+                <element signature="e#1954#5231#0" />
+                <element signature="e#2026#5231#0" />
+                <element signature="e#5267#9421#0" />
+                <element signature="e#5339#9421#0" />
+                <element signature="e#9502#11219#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/order_comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-556">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/order/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="e#3175#3984#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/place_order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/cart/apps.py" />
+        <option value="$PROJECT_DIR$/apps/goods/apps.py" />
+        <option value="$PROJECT_DIR$/apps/order/apps.py" />
+        <option value="$PROJECT_DIR$/apps/user/apps.py" />
+        <option value="$PROJECT_DIR$/dailyfresh/__init__.py" />
+        <option value="$PROJECT_DIR$/static/js/register.js" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/utils/mixin.py" />
+        <option value="$PROJECT_DIR$/templates/user_center_site.html" />
+        <option value="$PROJECT_DIR$/apps/user/models.py" />
+        <option value="$PROJECT_DIR$/templates/static_base.html" />
+        <option value="$PROJECT_DIR$/apps/celery_tasks/t.py" />
+        <option value="$PROJECT_DIR$/templates/static_index.html" />
+        <option value="$PROJECT_DIR$/apps/celery_tasks/tasks.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/apps/goods/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/apps/goods/admin.py" />
+        <option value="$PROJECT_DIR$/templates/user_center_info.html" />
+        <option value="$PROJECT_DIR$/apps/goods/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base_detail_list.html" />
+        <option value="$PROJECT_DIR$/dailyfresh/urls.py" />
+        <option value="$PROJECT_DIR$/apps/goods/search_indexes.py" />
+        <option value="$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt.py" />
+        <option value="$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt" />
+        <option value="$PROJECT_DIR$/templates/search/search.html" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings.py" />
+        <option value="$PROJECT_DIR$/apps/cart/urls.py" />
+        <option value="$PROJECT_DIR$/apps/cart/views.py" />
+        <option value="$PROJECT_DIR$/templates/cart.html" />
+        <option value="$PROJECT_DIR$/apps/user/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base_user_center.html" />
+        <option value="$PROJECT_DIR$/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/apps/order/models.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/base_no_car.html" />
+        <option value="$PROJECT_DIR$/apps/order/alipay_public_key.pem" />
+        <option value="$PROJECT_DIR$/apps/order/app_private_key.pem" />
+        <option value="$PROJECT_DIR$/apps/user/views.py" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
+        <option value="$PROJECT_DIR$/templates/user_center_order.html" />
+        <option value="$PROJECT_DIR$/apps/order/urls.py" />
+        <option value="$PROJECT_DIR$/templates/order_comment.html" />
+        <option value="$PROJECT_DIR$/templates/place_order.html" />
+        <option value="$PROJECT_DIR$/templates/detail.html" />
+        <option value="$PROJECT_DIR$/apps/order/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="463" />
+    <option name="y" value="52" />
+    <option name="width" value="1332" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Python-Cloud-Development\02\dailyfresh" />
+      <recent name="E:\GitHub\Python-Cloud-Development\02\dailyfresh\dailyfresh" />
+      <recent name="E:\GitHub\Python-Cloud-Development\02\dailyfresh\templates" />
+      <recent name="E:\GitHub\Python-Cloud-Development\02、云端系统之框架基础\dailyfresh\apps\order" />
+      <recent name="E:\GitHub\Python-Cloud-Development\02、云端系统之框架基础\dailyfresh\templates\search" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Python-Cloud-Development\02、云端系统之框架基础\dailyfresh\templates" />
+      <recent name="E:\GitHub\Python-Cloud-Development\02、云端系统之框架基础\dailyfresh" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.t">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dailyfresh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/goods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/goods/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dailyfresh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/celery_tasks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/celery_tasks/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dailyfresh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/celery_tasks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/celery_tasks/tasks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dailyfresh" type="Python.DjangoServer" factoryName="Django server">
+      <module name="dailyfresh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="dailyfresh.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.dailyfresh" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.tasks" />
+      <item itemvalue="Python.t" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.tasks" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79924905-b787-4ee7-bf88-97284f44993a" name="Default Changelist" comment="" />
+      <created>1563776562918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563776562918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="463" y="52" width="1332" height="1100" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14513677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46072188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.39596602" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5191083" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dailyfresh/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/页面说明.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/Python黑马程序员/07web全栈开发阶段-Django框架-Git版本管理-redis数据库-天天生鲜项目/11-14代码V3.1/Django代码V3.1/day09-天天生鲜项目-注册-登录/4-代码/dailyfresh/dailyfresh/settings.py" />
+    <entry file="file://$PROJECT_DIR$/utils/mixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_env/Lib/site-packages/tinymce/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/celery_tasks/t.py" />
+    <entry file="file://$PROJECT_DIR$/static/media/type/banner03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/static_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/static_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/migrations/0002_auto_20190722_1614.py" />
+    <entry file="file://$PROJECT_DIR$/apps/goods/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt.py" />
+    <entry file="file://$PROJECT_DIR$/apps/goods/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_center_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_center_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1443">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_detail_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/celery_tasks/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="155" column="41" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="155" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6435">
+          <caret line="184" column="66" selection-start-line="184" selection-start-column="66" selection-end-line="184" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/app_private_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/alipay_public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_no_car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/place_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#3175#3984#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="456" lean-forward="true" selection-start-line="456" selection-end-line="456" />
+          <folding>
+            <element signature="e#569#1917#0" />
+            <element signature="e#618#1917#0" />
+            <element signature="e#1954#5231#0" />
+            <element signature="e#2026#5231#0" />
+            <element signature="e#5267#9421#0" />
+            <element signature="e#5339#9421#0" />
+            <element signature="e#9502#11219#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/Python黑马程序员/07web全栈开发阶段-Django框架-Git版本管理-redis数据库-天天生鲜项目/11-14代码V3.1/Django代码V3.1/day16-天天生鲜项目-支付结果查询-订单评论-项目部署-总结/4-代码/dailyfresh/dailyfresh/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order_comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

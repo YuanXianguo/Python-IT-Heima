@@ -1,0 +1,24 @@
+.question{
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.question_logo{
+    margin:0 10px;
+}
+.question_logo img{
+    width: 30px;
+}
+.question_main{
+    width: 660px;
+}
+.question_title a{
+    color: #259;
+    font-weight: 900;
+}
+.question_info{
+    text-align: right;
+}
+.question_info a{
+    margin-right: 10px;
+}

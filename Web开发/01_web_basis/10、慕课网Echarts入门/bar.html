@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bar</title>
+    <!--引入echarts.js-->
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<!--为echarts准备一个具备大小的dom-->
+<div id="main" style="width: 600px;height:400px;"></div>
+<div id="main2" style="width: 600px;height:400px;"></div>
+
+<script type="text/javascript">
+    //基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById("main"));
+    var myChart2 = echarts.init(document.getElementById("main2"));
+
+    // 指定图表的配置项和数据
+    var option = {
+        //标题
+        title:{
+            show:true,
+            text:"ECharts 入门示例",  //标题
+            subtext:"欢迎学习echarts", //副标题
+            left:100, //数字就是像素值，也可以是center left right
+            borderColor:"magenta", //标题边框颜色
+            borderWidth:5, //标题边框宽度
+        },
+        //工具栏
+        toolbox:{
+            show:true,
+            feature:{
+                dataView:{
+                    show:true
+                }, //数据视图
+                dataZoom:{
+                    show:true
+                }, //数据区域缩放
+                restore:{
+                    show:true
+                }, //配置项还原
+                saveAsImage:{
+                    show:true
+                }, //保存为图片
+                magicType:{
+                    type:["line","bar"]
+                }, //动态类型切换
+            }
+        },
+        //弹窗
+        tooltip:{
+            trigger:"axis", //以x轴值为准
+        },
+        //图例
+        legend:{
+            data:["销量"],
+        },
+        //x轴
+        xAxis:{
+            data:["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"],
+        },
+        yAxis:{},
+        series:[{
+            name:"销量",
+            type:"bar",
+            data:[5,20,36,10,10,20],
+            markPoint:{
+                data:[
+                    {type:"max",name:"最大值"},
+                    {type:"min",name:"最小值"}
+                ]
+            }, //标记点
+            markLine:{
+                data:[
+                    {type:"average",name:"平均值"}
+                ]
+            }, //标记线
+        },
+        {
+            name:"销量",
+            type:"bar",
+            data:[15,120,136,110,110,120],
+            markPoint:{
+                data:[
+                    {type:"max",name:"最大值"},
+                    {type:"min",name:"最小值"}
+                ]
+            }, //标记点
+            markLine:{
+                data:[
+                    {type:"average",name:"平均值"}
+                ]
+            }, //标记线
+        }]
+
+    };
+
+    //使用指定的配置项和数据显示图案
+    myChart.setOption(option);
+    myChart2.setOption(option);
+
+</script>
+</body>
+</html>

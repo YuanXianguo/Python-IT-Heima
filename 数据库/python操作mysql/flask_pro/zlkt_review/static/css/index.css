@@ -1,0 +1,30 @@
+ul{
+    padding: 0 10px;
+}
+
+li{
+    list-style: none;
+    overflow: hidden;
+    border-bottom: #f3f3f3 solid 1px;
+    padding-top: 10px;
+}
+
+.question-logo{
+    margin-right: 10px;
+}
+
+.question-logo img{
+    width: 30px;
+}
+
+.question-main{
+    width: 670px;
+}
+
+.question-footer{
+    text-align: right;
+}
+
+.question-footer a{
+    margin-right: 10px;
+}

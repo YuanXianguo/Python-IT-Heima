@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc928e86-9f4f-4460-b4c5-1b30ebaf2714" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../flask_news/flask_new_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db_demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db_demo1/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db_foreign_key/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db_manytomany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_model/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extends_block/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extends_block/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extends_block/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extends_block/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../filter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../filter/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_script_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_script_demo/db_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_script_demo/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../for_statement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../for_statement/templates/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../for_statement/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../get_post/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../get_post/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../get_post/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../get_post/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_statement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../if_statement/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models_sep/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models_sep/exts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models_sep/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models_sep/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redirect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../session_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template01/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template01/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/static/images/迪迪001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_link/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_params/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../url_reverse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../min_flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sqlalchemy模型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/1连接数据库.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/1连接数据库.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/2创建数据库表.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/2创建数据库表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/python_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/python_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQL/python_mysql_应用.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQL/python_mysql_应用.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hook_def$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1552229005473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-97980642">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="10" />
+          <entry key="py" value="218" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="10" />
+          <entry key="Python" value="218" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1552229005422" expanded="true" signature="248:291" ph="..." />
+                <marker date="1552229005422" expanded="true" signature="341:376" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="870" />
+    <option name="y" value="64" />
+    <option name="width" value="1580" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hook_def" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hook_def" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hook_def" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hook_def" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="hook_def" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hook_def" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="hook_def" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.hook_def" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc928e86-9f4f-4460-b4c5-1b30ebaf2714" name="Default Changelist" comment="" />
+      <created>1552227428916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552227428916</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="870" y="64" width="1580" height="987" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08375959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1552229005422" expanded="true" signature="248:291" ph="..." />
+            <marker date="1552229005422" expanded="true" signature="341:376" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

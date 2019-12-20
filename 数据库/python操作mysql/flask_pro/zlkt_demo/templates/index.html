@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}首页{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+{% endblock %}
+{% block main %}
+{% for question in questions %}
+    <div class="question">
+        <div class="question_logo left">
+            <img src="{{ url_for('static',filename=question.user.img) }}" alt="">
+        </div>
+        <div class="question_main left">
+            <p class="question_title"><a href="{{ url_for('comment',question_id=question.id) }}">{{ question.title }}</a></p>
+            <p class="question_content">{{ question.content }}</p>
+            <div class="question_info">
+                <span class="question_user"><a href="{{ url_for('user_info',user_id=question.user.id) }}">{{ question.user.username }}</a></span>
+                <span class=" question_time">{{ question.create_time }}</span>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+{% endblock %}

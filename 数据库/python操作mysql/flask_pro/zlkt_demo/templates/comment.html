@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}
+详情
+{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/comment.css') }}">
+{% endblock %}
+{% block main %}
+    <div class="comment-container">
+        <p class="question-title page-title">{{ question.title }}</p>
+        <p class="question-info page-title">
+            <span class="question-username">作者：{{ question.user.username }}</span>
+            <span class="question-time">时间：{{ question.create_time }}</span>
+        </p>
+        <p class="question-content">{{ question.content }}</p>
+        <p class="comment_count">评论（{{ question.comments|length }}）：</p>
+        <form action="{{ url_for('new_comment') }}" method="post">
+            <div class="form-container">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="comment-content" placeholder="请填写评论">
+                    <input type="hidden" name="question_id" value={{ question.id }}>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary">评论</button>
+                </div>
+            </div>
+        </form>
+        <ul>
+            {% for comment in question.comments %}
+                <li>
+                    <div class="logo left">
+                        <img src="{{ url_for('static',filename=comment.user.img) }}" alt="">
+                    </div>
+                    <div class="comment-info left">
+                        <p>
+                            <span class="comment-username">
+                                <a href="{{ url_for('user_info',user_id=comment.user_id) }}">
+                                    {{ comment.user.username }}
+                                </a>
+                            </span>
+                            <span class="comment-time right">{{ comment.create_time }}</span>
+                        </p>
+                        <p class="comment-content">{{ comment.content }}</p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

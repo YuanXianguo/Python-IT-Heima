@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax_login</title>
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+            $('#ajax_login_btn').click(function () {
+                username = $('#username').val()
+                password = $('#password').val()
+                $.ajax({
+                    'url':'/ajax_login_check',
+                    'type':'post',
+                    'data':{
+                        'username':username,
+                        'password':password
+                    },
+                    'dataType':'json',
+                    success:function (data) {
+                        // 登录成功{'res':1}，失败{'res':0}
+                        if (data.res == 0){
+                            $('#errmsg').show()
+                        }
+                        else{
+                            location.href = '/index'
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+    <style>
+        #errmsg{
+            display: none;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+用户名：<input type="text" id="username"><br />
+密码：<input type="text" id="password"><br />
+<input type="button" id="ajax_login_btn" value="登录">
+<div id="errmsg">用户名或密码错误</div>
+</body>
+</html>

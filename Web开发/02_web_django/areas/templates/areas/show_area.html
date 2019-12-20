@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页</title>
+</head>
+<body>
+<ul>
+{#    {% for area in areas %}#}
+    {% for area in page %}
+        <li>{{ area.title }}</li>
+    {% endfor %}
+    {% if page.has_previous %}
+    <a href="/show_area/{{ page.previous_page_number }}">前一页</a>
+    {% endif %}
+    {% for p in page.paginator.page_range %}
+        {% if page.number == p %}
+            {{ p }}
+        {% else %}
+            <a href="/show_area/{{ p }}">{{ p }}</a>
+        {% endif %}
+    {% endfor %}
+    {% if page.has_next %}
+    <a href="/show_area/{{ page.next_page_number }}">后一页</a>
+    {% endif %}
+</ul>
+</body>
+</html>

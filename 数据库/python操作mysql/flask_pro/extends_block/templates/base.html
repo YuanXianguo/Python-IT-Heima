@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #nav{
+            background-color: #3a3a3a;
+            height: 65px;
+        }
+        #nav ul li{
+            float: left;
+            list-style: none;
+        }
+        #nav ul a{
+            color: #fff;
+            margin: 0 10px;
+            line-height: 65px;
+        }
+    </style>
+</head>
+<body>
+<div id="nav">
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">发布问答</a></li>
+    </ul>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>

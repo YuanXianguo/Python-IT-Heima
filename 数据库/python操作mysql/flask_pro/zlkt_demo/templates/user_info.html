@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title %}
+用户详情
+{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/user_info.css') }}">
+{% endblock %}
+{% block main %}
+    <div class="question-container">
+        <h2>{{ user.username }}的所有问题：</h2>
+        {% for question in user.questions %}
+            <div class="question-info">
+                <div class="question-logo left">
+                    <img src="{{ url_for('static',filename=user.img) }}" alt="">
+                </div>
+                <div class="question-main left">
+                    <p class="question-title">
+                        <a href="{{ url_for('comment',question_id=question.id) }}">{{ question.title }}</a>
+                    </p>
+                    <p class="question-content">{{ question.content }}</p>
+                    <p class="question-user-time">
+                        <span class="question-user">{{ question.user.username }}</span>
+                        <span class="question-time">{{ question.create_time }}</span>
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="comment-container">
+        <h2>{{ user.username }}的所有评论：</h2>
+        {% for comment in user.comments %}
+            <div class="comment-info">
+                <div class="comment-logo left">
+                    <img src="{{ url_for('static',filename=user.img) }}" alt="">
+                </div>
+                <div class="comment-main left">
+                    <p>
+                        <span class="comment-user">{{ comment.user.username }}</span>
+                        <span class="comment-time right">{{ comment.create_time }}</span>
+                    </p>
+                    <p class="comment-footer">
+                        <span class="comment-content">{{ comment.content }}</span>
+                        <span class="comment-from right">来自：
+                            <a href="{{ url_for('comment',question_id=comment.question.id) }}">{{ comment.question.title }}</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

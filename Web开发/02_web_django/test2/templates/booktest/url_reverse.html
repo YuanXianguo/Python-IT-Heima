@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'booktest:index' %}">首页</a><br />
+<a href="{% url 'booktest:show_args' 1 2 %}">show_args/1/2</a><br />
+<a href="{% url 'booktest:show_kwargs' c=3 d=4 %}">show_args/3/4</a>
+</body>
+</html>

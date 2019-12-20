@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>计时器</title>
+</head>
+<body>
+	<p>操作成功</p>
+	<sapn id="time">5</span>秒后返回
+	<a href="back()">返回</a>
+
+	<script type="text/javascript">
+	  var myobj = document.getElementById("time");
+	  var num = parseInt(myobj.innerHTML);
+	  function newurl(){
+	  	myobj.innerHTML=--num;
+	  	if(num==0){
+	  		window.location.assign("www.baidu.com");
+	  	}
+	  }
+	  setInterval(newurl,1000);
+	  function back(){
+	  	window.history.back();
+	  }
+	</script>
+</body>
+</html>

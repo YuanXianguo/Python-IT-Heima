@@ -1,0 +1,53 @@
+.comment-container{
+    margin: 0 15px;
+}
+.question-title{
+    font-size:18px;
+    font-weight: bold;
+}
+.question-info{
+    font-size: 10px;
+}
+.question-username{
+    margin-right: 10px;
+}
+.question-content{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 15px 0;
+    padding: 20px 0;
+}
+.comment_count{
+    font-size:16px;
+    font-weight: bold;
+}
+.form-container{
+    width: 75%;
+}
+.form-group{
+    text-align: right;
+}
+ul{
+    margin-top: 20px;
+    padding-left: 0;
+}
+ul li{
+    overflow: hidden;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+ul li .logo{
+    width: 30px;
+}
+.comment-info{
+    width: 660px;
+    margin-left: 10px;
+    font-size:16px;
+}
+.comment-info p:first-child{
+    color:#9b9b9b;
+}
+.logo img{
+    width: 30px;
+}

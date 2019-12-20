@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>猜数字</title>
+</head>
+<body>
+	<script>
+		num = parseInt(Math.random()*100);
+		do{
+			input = prompt("请输入一个数字");
+			if(input>num){
+				alert("您输入的数字大了");
+			}else if(input<num){
+				alert("您输入的数字小了");
+			}else{
+				alert("恭喜您，猜对了")
+			}
+		}while(input != num);
+		alert("游戏结束");
+	</script>
+</body>
+</html>

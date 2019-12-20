@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+</head>
+<body>
+	<script>
+		var price,count,money;
+		var total,change;
+		price = prompt("请输入单价");
+		count = prompt("请输入数量");
+		total = price * count;
+		// alert(total); //弹出结果
+		if (total>=500){
+			total *= 0.8;
+		}
+		alert(total);
+		money = prompt("请输入付款");
+		if (money>=total){
+			change = money - total;
+			alert(change);
+		}else{
+			alert("金额不够");
+		}
+	</script>
+</body>
+</html>

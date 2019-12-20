@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>扑克牌翻转</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #0d3462;
+		}
+		#stage{
+			width: 760px;
+			height: 220px;
+			margin: 100px auto;
+		}
+		.picbox{
+			float: left;
+			width: 170px;
+			height: 190px;
+			margin: 10px;
+			position: relative;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			transition: 1.5s;
+		}
+		.picbox:hover{
+			transform: rotateY(180deg);
+		}
+		.face{
+			width: 170px;
+			height: 190px;
+			position: absolute;
+		}
+		.front{
+			border:2px solid #4b2518;
+		}
+		.back{
+			background: #4b2518;
+			border: 2px solid #fff;
+			-webkit-transform: rotateY(180deg);
+			-ms-transform: rotateY(180deg);
+			-o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+		}
+		.back h3{
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="stage">
+		<div class="picbox">
+			<div class="face front"><img src="images/1.jpg" alt=""></div>
+			<div class="face back">
+				<h3>蓝山</h3>
+			</div>
+		</div>
+		<div class="picbox">
+			<div class="face front"><img src="images/2.jpg" alt=""></div>
+			<div class="face back">
+				<h3>拿铁</h3>
+			</div>
+		</div>
+		<div class="picbox">
+			<div class="face front"><img src="images/3.jpg" alt=""></div>
+			<div class="face back">
+				<h3>雀巢</h3>
+			</div>
+		</div>
+		<div class="picbox">
+			<div class="face front"><img src="images/4.jpg" alt=""></div>
+			<div class="face back">
+				<h3>浓缩</h3>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

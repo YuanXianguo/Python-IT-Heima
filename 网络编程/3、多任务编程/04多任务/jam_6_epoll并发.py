@@ -43,7 +43,8 @@ def server():
             elif events == select.EPOLLIN:
                 rec_data = clients[fd].recv(1024)
                 if rec_data:
-                    print("收到{}，来自{}".format(rec_data.decode("utf-8"), adrs[fd]))
+                    print("收到{}，来自{}".format(rec_data.decode("utf-8"),
+                                             adrs[fd]))
                 else:
                     # 从epoll中移除该连接fd
                     epoll.unregister(fd)

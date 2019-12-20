@@ -40,8 +40,8 @@ def main():
         count += 1
 
         per = count * 100 // len(f_names)
-        char = "=" * (per // 2) + ">"
-        print("\r进度：[{:-<51}]{:.2f}%".format(char, per), end="")
+        char = "=" * per + ">"
+        print("\r进度：[{:-<100}]{:2}%".format(char, per), end="")
 
         if count >= len(f_names):
             break
